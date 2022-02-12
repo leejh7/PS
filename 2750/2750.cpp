@@ -12,7 +12,8 @@ int main()
     vector<int> v;
     int n;
     cin >> n;
-    for(int i=0; i<n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         int input;
         cin >> input;
         v.push_back(input);
@@ -20,7 +21,8 @@ int main()
 
     sort(v.begin(), v.end());
 
-    for(auto i : v) {
+    for (auto i : v)
+    {
         cout << i << '\n';
     }
 
